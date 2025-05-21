@@ -1,0 +1,55 @@
+nav {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  > img {
+    width: 64px;
+    height: 64px;
+  }
+
+  div {
+    font-size: 20px;
+    font-family: "Raleway";
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+
+    > a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+
+      &:hover {
+        color: orangered;
+      }
+    }
+
+    .phone_btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #9f0908;
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 2px solid white;
+      color: white;
+
+      img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+      }
+
+      a {
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+      }
+    }
+  }
+}

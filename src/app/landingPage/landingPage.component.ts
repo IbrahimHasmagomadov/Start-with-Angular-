@@ -9,7 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     imports: [CommonModule, NavbarComponent],
     template: /*html*/`
         <section class= "hero_content" >
-            <app-navbar></app-navbar>
+            <div><app-navbar></app-navbar></div>
             <h1 class= "fontRaleway">SAKURA RAMEN</h1>
             <h2 class= "fontRaleway">BEST RAMEN IN TOWN</h2>
         </section>
