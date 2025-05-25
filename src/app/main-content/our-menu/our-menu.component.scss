@@ -1,0 +1,55 @@
+.section-menu {
+  padding: 120px 0;
+  background-image: url("./../../../assets/img/section_our_menu_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.section-menu h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  color: #9f0908;
+  margin-bottom: 64px;
+}
+.menu-items {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  padding: 0 40px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.menu-item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.menu-item img {
+  width: 352px;
+  height: 352px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.menu-content h3 {
+  font-family: "Economica", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+.menu-content tr {
+  height: 40px;
+  color: #665e56;
+}
+.menu-content td {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 8px 0;
+}
+.menu-content td:last-child {
+  padding-left: 190px;
+}

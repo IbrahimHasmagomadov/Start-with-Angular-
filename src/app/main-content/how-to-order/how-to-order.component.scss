@@ -1,0 +1,35 @@
+.section-how-to-order {
+  padding: 120px 0;
+  text-align: center;
+}
+.section-how-to-order h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 64px;
+  color: #9f0908;
+}
+.order-steps {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 1600px;
+}
+.order-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.order-step img {
+  width: 128px;
+  height: 128px;
+  object-fit: contain;
+}
+.order-step span {
+  font-family: "Economica", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
